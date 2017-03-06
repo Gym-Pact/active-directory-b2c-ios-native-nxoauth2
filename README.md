@@ -6,6 +6,11 @@ author: brandwe
 
 # An iOS task application with Azure AD B2C using third party libraries
 
+> [!NOTE]
+> This sample is uses embedded web-views to do all interactive sign-ins. It is important to note Google [has announced](https://developers.googleblog.com/2016/08/modernizing-oauth-interactions-in-native-apps.html) that they will end support for embedded web-views on April 20, 2017.  We are taking steps to prepare for this change, and will publish new code samples and recommendations soon.  At that point, any app that supports Google authentication will be required to switch to using the device browser (also called the system browser) which will require updating to a new auth library.  
+> 
+>
+
 The Microsoft identity platform uses open standards such as OAuth2 and OpenID Connect. This allows developers to leverage any library they wish to integrate with our services. To aid developers in using our platform with other libraries we've written a few walkthroughs like this one to demonstate how to configure third party libraries to connect to the Microsoft identity platform. Most libraries that implement [the RFC6749 OAuth2 spec](https://tools.ietf.org/html/rfc6749) will be able to connect to the Microsoft Identity platform.
 
 ## How To Run This Sample
