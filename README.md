@@ -1,7 +1,7 @@
 ---
 services: active-directory-b2c
 platforms: ios
-author: brandwe
+author: xerners
 ---
 
 # An iOS task application with Azure AD B2C using third party libraries
